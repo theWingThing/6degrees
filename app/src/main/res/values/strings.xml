@@ -16,5 +16,8 @@
     <string name="next">Next \></string>
     <string name="new_where_hint">City, District, or Zip Code</string>
     <string name="current_location">Use Current Location</string>
+    <string name="new_attractions">Any place you must visit?</string>
+    <string name="new_attraction_hint">Eiffel Tower, Disneyland, Great Wall, etc.</string>
+    <string name="add_new_attraction">+ Add another</string>
 
 </resources>

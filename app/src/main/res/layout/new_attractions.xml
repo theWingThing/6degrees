@@ -11,18 +11,17 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="@dimen/large_text"
-        android:text="@string/new_where" />
+        android:text="@string/new_attractions" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/new_where_hint" />
+        android:hint="@string/new_attraction_hint" />
 
-    <CheckBox
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/current_location"
-        android:id="@+id/checkBox" />
+        android:text="@string/add_new_attraction" />
 
     <Button
         android:id="@+id/next"
@@ -31,7 +30,6 @@
         android:layout_gravity="right"
         android:padding="@dimen/button_padding"
         android:textSize="@dimen/normal_text"
-        android:onClick="onClick"
         android:text="@string/next" />
 
 </LinearLayout>
