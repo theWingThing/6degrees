@@ -1,9 +1,11 @@
 package com.happifying.guideme.app;
 
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Login extends ActionBarActivity {
@@ -17,7 +19,7 @@ public class Login extends ActionBarActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        
+
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
@@ -33,6 +35,11 @@ public class Login extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void login(View view) {
+        Intent i = new Intent(this, Main.class);
+        startActivity(i);
     }
 
 }

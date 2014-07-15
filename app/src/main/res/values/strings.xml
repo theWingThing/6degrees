@@ -10,5 +10,10 @@
     <string name="register">Register</string>
     <string name="email_hint">email address</string>
     <string name="password_hint">password</string>
+    <string name="none">You don\'t have any tours, create one to get started!</string>
+    <string name="create">Create</string>
+    <string name="new_where">Where do you want to visit?</string>
+    <string name="next">Next \></string>
+    <string name="new_where_hint">City, District, or Zip Code</string>
 
 </resources>

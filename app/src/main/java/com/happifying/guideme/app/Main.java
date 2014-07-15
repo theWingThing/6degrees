@@ -19,15 +19,14 @@ public class Main extends FragmentActivity {
         setContentView(R.layout.main);
         List<Fragment> fragments = getFragments();
         pageAdapter = new MyPageAdapter(getSupportFragmentManager(), fragments);
-        ViewPager pager =
-                (ViewPager)findViewById(R.id.viewpager);
+        ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
         pager.setAdapter(pageAdapter);
     }
 
     private List<Fragment> getFragments() {
         List<Fragment> fList = new ArrayList<Fragment>();
 
-        fList.add(MyFragment.newInstance("Fragment 1"));
+        fList.add(TouristCurrent.newInstance());
         fList.add(MyFragment.newInstance("Fragment 2"));
         fList.add(MyFragment.newInstance("Fragment 3"));
 
