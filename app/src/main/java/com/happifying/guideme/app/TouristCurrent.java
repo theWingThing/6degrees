@@ -1,5 +1,6 @@
 package com.happifying.guideme.app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -17,6 +18,14 @@ public class TouristCurrent extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.tourist_current, container, false);
+        View v = inflater.inflate(R.layout.tourist_current, container, false);
+        v.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), NewTour.class);
+                startActivity(i);
+            }
+        });
+        return v;
     }
 }

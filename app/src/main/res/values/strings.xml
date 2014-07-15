@@ -15,5 +15,6 @@
     <string name="new_where">Where do you want to visit?</string>
     <string name="next">Next \></string>
     <string name="new_where_hint">City, District, or Zip Code</string>
+    <string name="current_location">Use Current Location</string>
 
 </resources>
