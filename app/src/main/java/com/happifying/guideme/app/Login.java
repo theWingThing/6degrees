@@ -3,6 +3,7 @@ package com.happifying.guideme.app;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -39,6 +40,12 @@ public class Login extends ActionBarActivity {
 
     public void login(View view) {
         Intent i = new Intent(this, Main.class);
+        startActivity(i);
+    }
+
+    public void register(View view) {
+        Log.v("hello", "is here");
+        Intent i = new Intent(this, Register.class);
         startActivity(i);
     }
 

@@ -19,5 +19,14 @@
     <string name="new_attractions">Any place you must visit?</string>
     <string name="new_attraction_hint">Eiffel Tower, Disneyland, Great Wall, etc.</string>
     <string name="add_new_attraction">+ Add another</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="bday">Birthday</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="year">year</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 
 </resources>
